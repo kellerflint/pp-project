@@ -10,13 +10,10 @@
 <body>
 <h1>Paired Program 1</h1>
 <?php
-    $numbers = [7,9,8,9,8,8,6];
 
-    function printArr($numbers) {
-        for ($i = 0; $i < sizeof($numbers); $i++) {
-            echo "<p>{$numbers[$i]}</p>";
-        }
-    }
+    include "functions.php";
+
+    $numbers = [7,9,8,9,8,8,6];
 
     printArr($numbers);
 
