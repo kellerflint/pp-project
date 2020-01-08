@@ -17,6 +17,8 @@
 
     printArr($numbers);
 
+    echo "<p>Largest: "  .largest($numbers) . "<p>";
+
 ?>
 </body>
 </html>
