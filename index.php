@@ -19,6 +19,10 @@
 
     echo "<p>Largest: "  .largest($numbers) . "<p>";
 
+    echo "<h2>Without Duplicates</h2>";
+
+    echo printArr(removeDups($numbers));
+
 ?>
 </body>
 </html>
