@@ -6,6 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Paired Program 1</title>
+    <style>
+        p {
+            font-size: 2em;
+        }
+    </style>
 </head>
 <body>
 <h1>Paired Program 1</h1>
@@ -22,6 +27,10 @@
     echo "<h2>Without Duplicates</h2>";
 
     echo printArr(removeDups($numbers));
+
+    echo "<h2>Distribution</h2>";
+
+    echo var_dump(distribution($numbers));
 
 ?>
 </body>
